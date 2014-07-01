@@ -7,7 +7,7 @@
 %define		rel	1
 Summary:	Common dirs for Perl modules
 Name:		perl-dirs
-Version:	4
+Version:	6
 Release:	%{rel}@%{abi}
 License:	Public Domain
 Group:		Development/Languages/Perl
@@ -61,6 +61,7 @@ done <<EOF
 %{perl_vendorarch}/IPTables/IPv4
 %{perl_vendorarch}/Image
 %{perl_vendorarch}/Inline
+%{perl_vendorarch}/JSON
 %{perl_vendorarch}/Linux
 %{perl_vendorarch}/Locale
 %{perl_vendorarch}/MIME
